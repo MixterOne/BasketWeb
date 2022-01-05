@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <title>BasketWeb - Site</title>
+</head>
+<body>
+    <header>
+            <div class="navbar">
+                <div class="cont-title">
+                    <h1 class="title">
+                        BasketWeb
+                    </h1>
+                </div>    
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#jogadores"> Jogadores</a></li>
+                    <li><a href="">Records</a></li>
+                    <li><a href="">Times</a></li>
+                    <li><a href="">Series</a></li>
+                </ul>
+            </div>
+    </header>
+
+    <main class="container">
+        <div class="frases-left">
+            <p class="frase">
+                Quando você está na quadra, não é sobre gostar. O que importa é jogar em alto nível e ajudar seu time a vencer. - Michael Jordan
+            </p>
+            <button onclick="MudaTexto()" class="btn-frases">Gerar uma frase</button>
+        </div>
+    </main>
+    
+    <section id="sobre">
+        <div class="conteudo-sobre">
+            <h1 class="title-sobre">Sobre o Basquete</h1>
+            <p>O basquete foi criado em 1891 nos Estados Unidos, na Associação Cristã de Moços de Springfield, no Massachusetts. A entidade é mundialmente conhecida pela sigla YMCA, sendo no Brasil chamada de ACM.<br><br>
+                O fundador do basquete foi James Naismith, um professor de Educação Física que teve como desafio pensar em um tipo de esporte a ser jogado em áreas internas, para ser praticado durante o inverno.<br><br>
+                A primeira partida de basquete que se tem registro foi realizada em 1892. O primeiro jogo da modalidade feminina foi realizado em 1896, entre alunas da Universidade de Stanford e da Universidade da Califórnia.<br><br>
+                No começo do século XX o esporte popularizou-se e espalhou-se pelo mundo. Em 1936 entra para as modalidades olímpicas, nas Olimpíadas de Berlim. A primeira vez que as mulheres competiram em jogos olímpicos jogando basquete foi nas Olimpíadas de Montreal, em 1976.</p>
+                <img src="Img/bola.png" alt="Bola de basquete">
+        </div>
+    </section>
+
+    <section id="jogadores">
+        <div class="container-jog">
+            <div class="card">
+                <div class="content">
+                    <h2>Michael Jordan</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatibus soluta rerum at quasi sapiente minima repellat dolore earum voluptates. Ipsum doloribus magnam officia quisquam molestiae error amet, sit soluta.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <img src="Img/Jordan.png" alt="Michael-Jordan">
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>LeBron James</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatibus soluta rerum at quasi sapiente minima repellat dolore earum voluptates. Ipsum doloribus magnam officia quisquam molestiae error amet, sit soluta.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <img src="Img/Lebron.png" alt="leBron-James">
+            </div>
+        </div>
+    </section>
+
+    <script src="Script/script.js"></script>
+</body>
+</html>
