@@ -22,4 +22,40 @@ function MudaTexto(){
     frase.innerHTML = retorno_aleatorio
 }
 
+function curti1(){
+    let divPai = document.querySelector(".actionCard1")
+    let btn = document.querySelector(".action1")
+    btn.parentNode.removeChild(btn)
+
+    const newSpan = document.createElement('span')
+    newSpan.innerHTML = `Curtido +1`
+    divPai.appendChild(newSpan)
+
+
+}
+
+function curti2(){
+    let divPai = document.querySelector(".actionCard2")
+    let btn = document.querySelector(".action2")
+    btn.parentNode.removeChild(btn)
+
+    const newSpan = document.createElement('span')
+    newSpan.innerHTML = `Curtido +1`
+    divPai.appendChild(newSpan)
+
+    
+}
+
+function curti3(){
+    let divPai = document.querySelector(".actionCard3")
+    let btn = document.querySelector(".action3")
+    btn.parentNode.removeChild(btn)
+
+    const newSpan = document.createElement('span')
+    newSpan.innerHTML = `Curtido +1`
+    divPai.appendChild(newSpan)
+
+    
+}
+
 

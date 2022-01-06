@@ -150,6 +150,7 @@ header{
 .container-jog{
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -216,4 +217,83 @@ header{
     text-decoration: none;
     margin-top: 10px;
     font-weight: 700;
+}
+
+/*TIMES CARDS*/
+
+#times{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-time{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-time{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.card-time{
+    background: #fff;
+    box-shadow: 8px 2px 20px #000;
+    color: #000;
+    width: 300px;
+    margin:10px;
+}
+
+.mediaCard img{
+    height: 200px;
+    width: 100%;
+}
+
+.topCard{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottomCard{
+    padding: 20px;
+}
+
+.actionCard1 span{
+    color: green;
+}
+
+.actionCard2 span{
+    color: green;
+}
+
+.actionCard3 span{
+    color: green;
+}
+
+.action1{
+    background: none;
+    border: none;
+    color: #e224a2;
+    cursor: pointer;
+}
+
+.action2{
+    background: none;
+    border: none;
+    color: #e224a2;
+    cursor: pointer;
+}
+
+.action3{
+    background: none;
+    border: none;
+    color: #e224a2;
+    cursor: pointer;
 }
