@@ -28,7 +28,7 @@ function curti1(){
     btn.parentNode.removeChild(btn)
 
     const newSpan = document.createElement('span')
-    newSpan.innerHTML = `Curtido +1`
+    newSpan.innerHTML = 'Curtido'
     divPai.appendChild(newSpan)
 
 
@@ -40,7 +40,7 @@ function curti2(){
     btn.parentNode.removeChild(btn)
 
     const newSpan = document.createElement('span')
-    newSpan.innerHTML = `Curtido +1`
+    newSpan.innerHTML = 'Curtido'
     divPai.appendChild(newSpan)
 
     
@@ -52,7 +52,7 @@ function curti3(){
     btn.parentNode.removeChild(btn)
 
     const newSpan = document.createElement('span')
-    newSpan.innerHTML = `Curtido +1`
+    newSpan.innerHTML = 'Curtido'
     divPai.appendChild(newSpan)
 
     
