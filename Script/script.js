@@ -60,14 +60,14 @@ function curti3(){
 
 function mudaBackgMJ(){
     let container = document.querySelector("#jogadores")
-    container.style.background = "url(../Img/nba-jordan.gif) no-repeat"
+    container.style.background = "url(./Img/nba-jordan.gif) no-repeat"
     container.style.backgroundSize = "cover"
 
 }
 
 function mudaBackgLB(){
     let container = document.querySelector("#jogadores")
-    container.style.background = "url(../Img/LeMJ.gif) no-repeat";
+    container.style.background = "url(./Img/LeMJ.gif) no-repeat";
     container.style.backgroundSize = "cover";
 }
 
