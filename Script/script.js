@@ -67,7 +67,7 @@ function mudaBackgMJ(){
 
 function mudaBackgLB(){
     let container = document.querySelector("#jogadores")
-    container.style.background = "url(LeMJ.gif) no-repeat";
+    container.style.background = "url(tenor.gif) no-repeat";
     container.style.backgroundSize = "cover";
 }
 
