@@ -1,0 +1,78 @@
+@media screen and (min-width: 300px){
+    .frases-left{
+        width: 300px;
+        top:20%;
+    }
+
+    header ul{
+        display: none;
+    }
+
+
+    /*SOBREEEEE*/
+
+    #sobre{
+        height: 90vh;
+    }
+
+    #sobre .conteudo-sobre{
+        padding: 10px;
+        text-align: center; 
+    }
+
+    .conteudo-sobre p{
+        font-size: 10px;
+    
+    }
+
+    .conteudo-sobre img{
+        display: none;
+    }
+
+    /*JOGADOREEES*/
+
+    #jogadores{
+        height: 100vh;
+        width: 100%;
+        margin: 120px 0px;
+    }
+
+    .container-jog .card{
+        width: auto;
+        max-width: 400px;
+        height: 300px;
+        align-items: flex-start;
+    }
+
+    .container-jog .card img{
+        height: 300px;
+        width: 200px;
+    }
+
+
+    .container-jog .card:hover {
+        height: 400px;
+    }
+
+    .container-jog .card:hover img{
+        left: 70%;
+        height: 180px;
+    }
+
+    .container-jog .card .content{
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+
+
+    .table td,.table tr{
+        padding: 12px 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+}
