@@ -25,7 +25,6 @@
                     <li><a href="#jogadores"> Jogadores</a></li>
                     <li><a href="#times">Times</a></li>
                     <li><a href="">Records</a></li>
-                    <li><a href="">Series</a></li>
                 </ul>
             </div>
     </header>
@@ -56,7 +55,7 @@
                 <div class="content">
                     <h2>Michael Jordan</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatibus soluta rerum at quasi sapiente minima repellat dolore earum voluptates. Ipsum doloribus magnam officia quisquam molestiae error amet, sit soluta.</p>
-                    <a href="#">Read More</a>
+                    <a href="#jogadores" onclick="mudaBackgMJ()">Clique aqui</a>
                 </div>
                 <img src="Img/Jordan.png" alt="Michael-Jordan">
             </div>
@@ -64,7 +63,7 @@
                 <div class="content">
                     <h2>LeBron James</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatibus soluta rerum at quasi sapiente minima repellat dolore earum voluptates. Ipsum doloribus magnam officia quisquam molestiae error amet, sit soluta.</p>
-                    <a href="#">Read More</a>
+                    <a href="#jogadores" onclick="mudaBackgLB()">Clique aqui</a>
                 </div>
                 <img src="Img/Lebron.png" alt="leBron-James">
             </div>
@@ -132,58 +131,66 @@
     </section>
 
     <section id="records">
-        <table border="1">
-            <tr>
-                <td></td>
-                <td>Nome</td>
-                <td>Detalhes</td>
-            </tr>
-            <tr>
-                <td>
-                    Mais cestas consecutivas feitas	
-                </td>
-                <td>
-                    Wilt Chamberlain
-                </td>
-                <td>
-                    35 cestas
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Maior pontuação individual em um jogo de temporada regular
-                </td>
-                <td>
-                    Wilt Chamberlain
-                </td>
-                <td>
-                    100 pontos
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Maior pontuação individual em um jogo de playoffs
-                </td>
-                <td>
-                    Michael Jordan
-                </td>
-                <td>
-                    63 pontos
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Maior pontuação individual em um jogo das Finais
-                </td>
-                <td>
-                    Elgin Baylor
-                </td>
-                <td>
-                    61 pontos
-                </td>
-            </tr>
-        </table>
+        <div class="container-records">
+            <h2 class="title-records">Records</h2>
+            <table class="table">
+                <tr>
+                    <td></td>
+                    <td>Nome</td>
+                    <td>Detalhes</td>
+                </tr>
+                <tr>
+                    <td>
+                        Mais cestas consecutivas feitas	
+                    </td>
+                    <td>
+                        Wilt Chamberlain
+                    </td>
+                    <td>
+                        35 cestas
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Maior pontuação individual em um jogo de temporada regular
+                    </td>
+                    <td>
+                        Wilt Chamberlain
+                    </td>
+                    <td>
+                        100 pontos
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Maior pontuação individual em um jogo de playoffs
+                    </td>
+                    <td>
+                        Michael Jordan
+                    </td>
+                    <td>
+                        63 pontos
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Maior pontuação individual em um jogo das Finais
+                    </td>
+                    <td>
+                        Elgin Baylor
+                    </td>
+                    <td>
+                        61 pontos
+                    </td>
+                </tr>
+            </table>
+        </div>
+
     </section>
+
+    <footer>
+        &copy; Matheus Rodrigues isaias
+    </footer>
 
     <script src="Script/script.js"></script>
 </body>

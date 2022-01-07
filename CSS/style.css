@@ -70,9 +70,8 @@ header{
     position: absolute;
     top: 40%;
     left: 5%;
-    width: 600px;
+    width: 550px;
     padding: 30px;
-
 }
 
 .frases-left .frase{
@@ -100,7 +99,10 @@ header{
 #sobre{
     width: 100%;
     height: 80vh;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 #sobre .conteudo-sobre{
@@ -120,7 +122,7 @@ header{
 
 .conteudo-sobre p{
     font-size: 20px;
-    margin-bottom: 30px;
+
 }
 
 .conteudo-sobre img{
@@ -128,6 +130,7 @@ header{
     animation: bola 2s normal infinite;
     border: 2px solid #36192d;
     border-radius: 60px;
+    margin: 30px 0px;
 }
 
 
@@ -145,6 +148,7 @@ header{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    width: 100%;
 }
 
 .container-jog{
@@ -164,7 +168,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     border-radius: 0px 10px 0px 10px;
-    background: linear-gradient(45deg, rgb(108, 14, 167), rgb(226, 62, 172)) rgb(172, 120, 185);
+    background: linear-gradient(45deg, rgba(108, 14, 167, 0.068), rgba(226, 62, 171, 0.068)) rgba(172, 120, 185, 0.075);
 }
 
 .container-jog .card img{
@@ -178,7 +182,7 @@ header{
 
 .container-jog .card:hover img{
     left: 65%;
-    height: 500px;
+    height: 350px;
 }
 
 .container-jog .card .content{
@@ -226,6 +230,7 @@ header{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    width: 100%;
 }
 
 .container-time{
@@ -296,4 +301,58 @@ header{
     border: none;
     color: #e224a2;
     cursor: pointer;
+}
+
+/*RECORDS TABLES*/
+
+#records{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container-records{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-records{
+    color: #e224a2;
+    letter-spacing: 3px;
+    font-size: 34px;
+    margin: 10px 0px;
+    font-family: 'Lobster', cursive;
+}
+
+.container-records .table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.table td,.table tr{
+    padding: 42px 30px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+.table tr{
+    background: rgba(255, 255, 255, 0.11);
+    color: #fff;
+}
+
+.table td:nth-child(even){
+    background: #dadada3d;
+    color: black;
+    font-weight: 700;
+}
+
+footer{
+    text-align: center;
 }
